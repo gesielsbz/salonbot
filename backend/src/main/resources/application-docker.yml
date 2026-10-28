@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://postgres:5432/salonbot}
+    username: ${DB_USERNAME:salonbot}
+    password: ${DB_PASSWORD:change-me-local-only}
